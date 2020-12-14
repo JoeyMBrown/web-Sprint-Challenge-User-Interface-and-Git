@@ -66,6 +66,26 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header {
+    width: 800px;
+    margin: 1% auto;
+}
+
+nav {
+    margin-bottom: 4%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -93,6 +113,46 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+/*  Box coloring */
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
 
 .middle-content .boxes {
@@ -143,4 +203,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page Styles */
+
+.aboutText {
+    border-bottom: 1px dashed black;
+    margin-bottom: 2%;
+    padding: 2% 0px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery div {
+    width: 49%;
+    border-bottom: 1px dashed black;
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
+.gallery h2, .gallery p {
+    padding: 2%;
+    margin: 1%;
+}
+
+.galleryButton {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3% 8%;;
+    background-color: white;
+    font-size: 1em;
+    margin-bottom: 2%;
+}
+
+.workTogether {
+    margin-bottom: 5%;
 }
